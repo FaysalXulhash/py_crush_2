@@ -1,0 +1,5 @@
+theNote that we are referencing two views—ListTodo and DetailTodo—that we have yet to create.
+But the routing is now complete. There will be a list of all todos at the empty string '', in other
+words at api/. And each individual todo will be available at its primary key, which is a value
+Django sets automatically in every database table. The first entry is 1, the second is 2, and so on.
+Therefore our first todo will eventually be located at the API endpoint api/1/.
